@@ -3,12 +3,12 @@
 ## Quick Start
 
 ```bash
-git clone https://github.com/rhildred/UX220Assignment2 .
+git clone https://github.com/StayFar/UX220Assignment2 .
 npm install
 npm start
 ```
 
-or surf to [https://diy-pwa.dev/~/gh/rhildred/UX220Assignment2](https://diy-pwa.dev/~/gh/StayFar/UX220Assignment2). 
+or surf to [https://diy-pwa.dev/~/gh/StayFar/UX220Assignment2](https://diy-pwa.dev/~/gh/StayFar/UX220Assignment2). 
 
 ```bash
 npm install
