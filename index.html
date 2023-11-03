@@ -15,30 +15,35 @@
             --footer-foreground: #FFFFFF;
             --button-background: #FF5733;
             --button-foreground: #FFF;
+
         }
 
         body {
             font-family: 'Rubik', sans-serif; /* Use 'Rubik' font for body text */
             background-color: var(--main-background);
             color: var(--main-foreground);
-            margin: 0;
+            margin-left: 50px;  /* Add margin to the left side */
+            margin-right: 50px; /* Add margin to the right side */
             padding: 0;
         }
 
         h1, h2, h3 {
             font-family: 'Playfair Display', serif; /* Use 'Playfair Display' font for headings */
+            margin-top: 0.5px;
         }
         h1 {text-align: center;}
         header {
             background-color: var(--navbar-background);
             color: var(--navbar-foreground);
-            padding: 10px;
+            padding: 30px;
+            margin-bottom: 50px;
         }
 
         footer {
             background-color: var(--footer-background);
             color: var(--footer-foreground);
             padding: 10px;
+            margin-top: 100px;
         }
 
         .button {
@@ -48,19 +53,19 @@
             padding: 10px 20px;
             margin: 10px;
             cursor: pointer;
-            
         }
 
         .whitespace {
-            height: 70px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 
 <body>
+    
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">&copy; Farizah Naeem</a>
+    <a class="navbar-brand" href="#footer">&copy; Farizah Naeem</a> 
     <div class="collapse navbar-collapse" id="navbarsExample04">
         <ul class="navbar-nav ml-auto">
             </li>
@@ -68,9 +73,33 @@
     </div>
 </nav>
 
+
+
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="collapse navbar-collapse" id="navbarsExample04">
-        <div class="ml-auto"> <!-- Add a <div> and apply the 'ml-auto' class -->
+        <ul class="ml-auto">
+            <ul class="ml-auto">
+                <ul class="ml-auto">
+                    <ul class="ml-auto">
+                        <ul class="ml-auto">
+                            <ul class="ml-auto">
+                                <ul class="ml-auto">
+                                    <ul class="ml-auto">
+                                        <ul class="ml-auto">
+                                            <ul class="ml-auto">
+                                                <ul class="ml-auto">
+                                                    <ul class="ml-auto">
+                                                        <ul class="ml-auto">
+                                                            <ul class="ml-auto">
+                                                                <ul class="ml-auto">
+                                                                    <ul class="ml-auto">
+                                                                        <ul class="ml-auto">
+                                                                            <ul class="ml-auto">
+                                                                                <ul class="ml-auto">
+                                                                                    <ul class="ml-auto">
+                                                                                        <ul class="ml-auto">
+                                                                                            <ul class="ml-auto">
+                                                                                    
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About Me</a>
@@ -79,7 +108,7 @@
                     <a class="nav-link" href="#contact">Contact Information</a>
                 </li>
             </ul>
-        </div>
+        </ul>
     </div>
 </nav>
     <h1>Assignment 2</h1> 
@@ -95,6 +124,7 @@
         <x-markdown2html src="about.md" id="about"></x-markdown2html>
         <x-markdown2html src="contact.md" id="contact"></x-markdown2html>
     </main>
+    <footer id="footer">
     <footer>
         &copy; Farizah Naeem
     </footer>
